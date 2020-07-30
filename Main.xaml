@@ -27,7 +27,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="40">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="21">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -57,6 +57,7 @@
       <Variable x:TypeArguments="sd:DataTable" Name="ConfigDT" />
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="out_Config" />
       <Variable x:TypeArguments="ui:GenericValue" Default="[2]" Name="Count" />
+      <Variable x:TypeArguments="x:String" Name="OP" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
